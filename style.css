@@ -171,15 +171,6 @@ nav ul li .active {
   color: #666;
 }
 
-/* About-Contact */
-/* section#about,
-section#contact {
-  background-color: #ffffff;
-  padding: 40px 20px;
-  border-radius: 10px;
-  margin-top: 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-}
 
 .social-icon img {
     width: 24px;
@@ -252,7 +243,6 @@ section#contact {
   text-align: center;
   color: hsl(240, 21%, 35%);
   font-size: large;
-  
 }
 #contact {
   display: contents;
