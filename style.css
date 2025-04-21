@@ -301,6 +301,7 @@ footer {
 }
 
 .social-icon img:hover {
+  
   transform: scale(1.2);
   filter: brightness(1);
 }
