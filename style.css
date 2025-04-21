@@ -129,14 +129,16 @@ nav ul li .active {
 
 /* Collection */
 .collection {
-  padding: 80px 20px;
+  background-image: none;
+  padding: 60px 10px;
   text-align: center;
+  background-color: rgb(250, 238, 223);
 }
 .collection h2 {
   font-family: "Playfair Display", serif;
-  color: honeydew;
+  color: rgb(54, 71, 54);
   font-size: 2.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .products {
   background-image: none;
@@ -170,61 +172,57 @@ nav ul li .active {
   font-size: 0.95rem;
   color: #666;
 }
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease-in-out;
+}
 
+.social-icon img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
 
 .social-icon img {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .social-icon img:hover {
-  
-    transform: scale(1.2);
-  }
-  
-  footer {
-    background-color: #343a40;
-    color: white;
-  }
-  
-  .social-icon img {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s ease-in-out;
-  }
-  .social-icon .invertColor {
-    width: 24px;
-    height: 24px;
-    transition: transform 0.3s ease-in-out;
-    filter: brightness(0) invert(1);
-  }
-  
-  .social-icon img:hover {
-    transform: scale(1.2);
-    filter: brightness(1);
-  }
-  
-  .social-icon .invertColor:hover {
-    transform: scale(1.2);
-    filter: brightness(0) invert(1);
-  } */
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+.social-icon .invertColor {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease-in-out;
+  filter: brightness(0) invert(1);
+}
+
+.social-icon img:hover {
+  transform: scale(1.2);
+  filter: brightness(1);
+}
+
+.social-icon .invertColor:hover {
+  transform: scale(1.2);
+  filter: brightness(0) invert(1);
+}
+*/
 /* Contact */
-#contact {
-  display: contents;
-  background-color: bisque;
+.contact {
+  background-color: rgb(241, 237, 231);
   background-image: none;
   padding: 40px 10px;
   text-align: center;
-  margin-bottom: 0px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
-#contact h2 {
+.contact h2 {
   font-family: "Playfair Display", serif;
-  font-size: 2.2rem;
-  margin-bottom: 20px;
+  color: rgb(54, 71, 54);
+  font-size: 2.5rem;
+  margin-bottom: 40px;
 }
-#about {
+.about {
   display: contents;
   background-image: none;
   background-color: #c0dfe8;
@@ -234,17 +232,17 @@ nav ul li .active {
   margin-bottom: 10px;
   box-shadow: 0 0 10px rgba(142, 139, 139, 0.05);
 }
-#about h2 {
+.about h2 {
   text-align: center;
   color: hsl(240, 4%, 16%);
   font-size: xx-large;
 }
-#about p {
+.about p {
   text-align: center;
   color: hsl(240, 21%, 35%);
   font-size: large;
 }
-#contact {
+.contact {
   display: contents;
   background-image: none;
   background-color: #65787e;
@@ -254,7 +252,7 @@ nav ul li .active {
   margin-bottom: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
-#contact h2 {
+.contact h2 {
   font-size: xx-large;
   text-align: center;
   color: hsl(240, 4%, 16%);
